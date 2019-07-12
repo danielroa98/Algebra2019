@@ -1,0 +1,27 @@
+package org.danielRoa;
+
+public class CarUser {
+	public static void main(String[] args) {
+		
+		Car car = new Car(123, 8.5, "Mclaren");
+		
+		car.start();
+		car.stop();
+		System.out.println("*-------------------------------------------------*");
+		
+		SportsCar sportsCar = new SportsCar(321, 3.5, "Ferrari", true);
+
+		sportsCar.start();
+		sportsCar.drift();
+		sportsCar.stop();
+		System.out.println("*-------------------------------------------------*");
+
+		
+		//implicit upcasting
+		Car car2 = sportsCar;
+		car2.start();
+		car2.stop();
+		
+		System.out.println("*-------------------------------------------------*");
+	}
+}

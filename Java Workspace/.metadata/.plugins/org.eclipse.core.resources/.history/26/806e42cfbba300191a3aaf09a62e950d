@@ -1,0 +1,21 @@
+package org.danielRoa;
+
+public class Methods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String name = "Daniel";
+		int age = 21;
+		String nationality = "Mexican";
+		
+		
+		Person p1 = new Person(name, age, nationality);
+	}
+	
+	public class Person{
+		
+	}
+
+}
+

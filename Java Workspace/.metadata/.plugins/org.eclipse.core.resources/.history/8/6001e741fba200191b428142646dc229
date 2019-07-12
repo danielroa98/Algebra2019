@@ -1,0 +1,21 @@
+package org.danielRoa;
+
+public class ArrayIntro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[] n = new int[3];
+		
+		n[0] = 555;
+		n[1] = 222;
+		n[2] = 111;
+		
+		
+		for (int cont = 0; cont < n.length; cont++) {
+			
+		}
+	
+	}
+
+}

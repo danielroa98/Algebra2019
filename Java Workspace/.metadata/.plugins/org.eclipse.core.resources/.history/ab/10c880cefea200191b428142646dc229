@@ -1,0 +1,18 @@
+package org.danielRoa;
+
+import java.util.*;
+
+public class ArraysExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String[] names = {"Thelma", "Donald", "Jack", "Frank", "Luise"};
+	
+		
+		for (String name : names) {
+			System.out.println(name);
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+package org.danielRoa;
+
+public class Loops {
+	public static void main(String[] args) {
+		
+//		Initialization
+		int i = 0;
+//		COndition
+		while (i < 10) {
+//			work
+			System.out.println(i);
+			
+			i++;
+		}
+		
+	}
+}

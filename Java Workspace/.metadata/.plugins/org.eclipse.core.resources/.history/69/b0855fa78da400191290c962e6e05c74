@@ -1,0 +1,18 @@
+package org.danielRoa;
+
+public class SportsCar extends Car{
+
+	private boolean roofWindow;
+	
+	public SportsCar(int number, double acceleration, String type, boolean roofWindow) {
+		
+		super(number, acceleration, type);
+		this.roofWindow = roofWindow;
+		
+	}
+	
+	public void drift() {
+		System.out.println("Sports car drifting");
+	}
+	
+}

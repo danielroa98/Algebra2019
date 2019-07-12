@@ -1,0 +1,19 @@
+package org.danielRoa;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int n = 5;
+		
+		 do{
+			
+			int res = n - 1;
+			
+			System.out.println(res);
+			
+		}while(n > 1);
+	}
+
+}

@@ -1,0 +1,22 @@
+package org.danielRoa;
+
+public class TernaryOperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a = 1;
+		int b = 2;
+		
+		if (a > b) {
+			int max = a;
+			
+			System.out.println(max);
+		}else {
+			int max = b;
+		}
+	
+		
+	}
+
+}

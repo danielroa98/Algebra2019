@@ -1,0 +1,24 @@
+package org.danielRoa;
+
+public class WhileExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int n = 123;
+		
+		int cont = 0;
+		
+		while (n > 0){
+			
+			n /= 10;
+			
+			cont++;
+			
+			
+		} 
+		
+		System.out.println("The number has "+cont+" digits.");
+	}
+
+}

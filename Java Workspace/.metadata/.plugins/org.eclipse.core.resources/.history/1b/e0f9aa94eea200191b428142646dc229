@@ -1,0 +1,22 @@
+package org.danielRoa;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int n = 5;
+		
+		int fact = 1;
+		
+		for (int cont = 2; cont <= n; cont++) {
+			
+			fact *= cont;
+			
+		}
+		
+		System.out.println("The factorial of "+n+" is: "+fact);
+		
+	}
+
+}

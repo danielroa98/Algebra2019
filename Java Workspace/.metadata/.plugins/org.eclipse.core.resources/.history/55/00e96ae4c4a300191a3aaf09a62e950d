@@ -1,0 +1,35 @@
+package org.danielRoa;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Student {
+
+	private int indexNumber;
+	private String name;
+	private String surname;
+	private List<String> exams = new ArrayList<>();
+	
+	
+	public void takeExam(String exam) {
+		
+		exams.add(exam);
+		
+	}
+	
+	public void printData(){
+		StringBuilder sb = new StringBuilder();
+		
+		sb.append(indexNumber).append("\n)
+	}
+	
+	public static void main(String[] args) {
+		
+		int indexNumer = 1234567890;
+		String name = "Daniel";
+		String surname = "Roa";
+		
+		
+		
+	}
+}

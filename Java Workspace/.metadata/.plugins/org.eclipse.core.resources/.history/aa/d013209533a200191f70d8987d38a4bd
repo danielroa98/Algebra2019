@@ -1,0 +1,11 @@
+package org.danielRoa;
+
+public class SwitchExample {
+	public static void main(String[] args) {
+		
+		int grade;
+		
+		grade = 4;
+		
+	}
+}

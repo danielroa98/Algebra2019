@@ -1,0 +1,35 @@
+package org.danielRoa;
+
+public class Methods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String name = "Daniel";
+		int age = 21;
+		String nationality = "Mexican";
+		
+//		printHello();
+		
+		Person p1 = new Person(name, age, nationality);
+	}
+	
+	public class Person{
+		
+		private String name;
+		private int age; 
+		private String nationality;
+		
+		public Person(String name, int age, String nationality) {
+	
+			this.name = name;
+			this.age = age;
+			this.nationality = nationality;
+	}
+		
+		public void printPerson() {
+			System.out.printf("Hello %d, is your age %d, and your nationality is %d?", name, age, nationality);
+		}
+
+}
+

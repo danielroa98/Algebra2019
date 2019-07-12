@@ -1,0 +1,27 @@
+package org.danielRoa;
+
+public class SwitchExample {
+	public static void main(String[] args) {
+		
+		int grade = 4;
+		
+		switch (grade) {
+		case 1:
+			System.out.println("Failed");
+			break;
+
+		case 2:
+			break;
+			
+		case 3:
+			break;
+		
+		case 4:
+			
+			break;
+		default:
+			break;
+		}
+		
+	}
+}

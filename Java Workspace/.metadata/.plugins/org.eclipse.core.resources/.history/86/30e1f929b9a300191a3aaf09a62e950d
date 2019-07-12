@@ -1,0 +1,21 @@
+package org.danielRoa;
+
+public class StringExample {
+
+	public static void main(String[] args) {
+
+		String[] names = {"Peter", "Philip", "Michael", "Daniel"};
+		
+		for (String n : names) {
+			
+			if (n.startsWith("P")) {
+				
+				System.out.println(name);
+				
+			}
+		
+		}
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package org.danielRoa;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int n = 5;
+		
+		int fact = 0;
+		
+		for (int cont = 1; cont <= n; cont++) {
+			
+			fact *= cont;
+			
+		}
+		
+		System.out.println(fact);
+		
+	}
+
+}

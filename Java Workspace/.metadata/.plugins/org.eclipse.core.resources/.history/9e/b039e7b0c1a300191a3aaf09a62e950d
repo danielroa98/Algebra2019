@@ -1,0 +1,28 @@
+package org.danielRoa;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PassByValueAndReference {
+
+	public static void main(String[] args) {
+		
+		int i = 1;
+		
+		passByValue(i);
+		
+		System.out.println("Main: " + i);
+		
+		List<String> list = new ArrayList<>();
+		passByReference(list);
+		
+	}
+
+	private static void passByValue(int i) {
+		// TODO Auto-generated method stub
+		i++;
+		
+		System.out.println("Method: "+i);
+	}
+	
+}

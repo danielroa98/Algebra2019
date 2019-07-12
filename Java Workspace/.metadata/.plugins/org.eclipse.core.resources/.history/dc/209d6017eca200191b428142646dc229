@@ -1,0 +1,31 @@
+package org.danielRoa;
+
+public class WhileExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int n = 123;
+		
+		int cont = 0;
+		
+		int sum = 0;
+		
+		while (n > 0){
+			
+			int value = n % 10;
+			
+			sum += value;
+			
+			n /= 10;
+			
+			cont++;
+			
+		} 
+		
+		System.out.println("The total addition of the numbers is "+sum+"\n");
+		
+		System.out.println("The number has "+cont+" digits.");
+	}
+
+}

@@ -1,0 +1,13 @@
+package org.danielRoa;
+
+import first.api.Calculator;
+
+public class CalculatorUser {
+	
+	public static void main(String[] args) {
+		
+		Calculator cal = new Calculator(3, 4);
+		
+	}
+	
+}

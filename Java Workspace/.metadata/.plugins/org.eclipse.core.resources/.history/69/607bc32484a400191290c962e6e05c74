@@ -1,0 +1,22 @@
+package first.api;
+
+public class Calculator {
+
+	private double a;
+	private double b;
+	
+	public Calculator() {
+		
+	}
+	
+	public Calculator(double a, double b) {
+		super();
+		this.a = a;
+		this.b = b;
+	}
+	
+	public double add(){
+		return a+b;
+	}
+	
+}

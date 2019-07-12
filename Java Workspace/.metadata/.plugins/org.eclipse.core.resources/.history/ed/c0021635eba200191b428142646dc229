@@ -1,0 +1,23 @@
+package org.danielRoa;
+
+public class WhileExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int n = 123;
+		
+		int div = 10;
+		
+		
+		do {
+			
+			int result = n/div;
+			
+			System.out.println(result);
+			
+		} while (n > 0);
+		
+	}
+
+}

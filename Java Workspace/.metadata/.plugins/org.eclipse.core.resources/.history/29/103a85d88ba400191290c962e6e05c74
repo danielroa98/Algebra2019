@@ -1,0 +1,11 @@
+package org.danielRoa;
+
+public class SportsCar extends Car{
+
+	private boolean roofWindow;
+	
+	public SportsCar(int number, double acceleration, String type, boolean roofWindow) {
+		this.roofWindow = roofWindow;
+	}
+	
+}

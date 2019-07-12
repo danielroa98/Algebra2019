@@ -1,0 +1,16 @@
+package org.danielRoa;
+
+public class PrimeNumbers {
+
+	public static void main(String[] args) {
+		
+		int n = 5;
+		
+		boolean isPrime = false;
+		
+		if (isPrime) {
+			System.out.println(n);
+		}
+		
+	}
+}

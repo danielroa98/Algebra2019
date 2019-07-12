@@ -1,0 +1,30 @@
+package org.danielRoa;
+
+public class PrimeNumbers {
+
+	public static void main(String[] args) {
+		
+		int n = 5;
+		
+		boolean isPrime = true;
+		
+		for (int i = 2; i <= 4; i++) {
+			
+			if (n % i == 0) {
+				
+				isPrime = false;
+				
+				break;
+				
+			}//fin IF
+			
+		}//fin FOR
+		
+		if (isPrime) {
+			
+			System.out.println(n);
+		
+		}//fin IF
+		
+	}//fin Main
+}

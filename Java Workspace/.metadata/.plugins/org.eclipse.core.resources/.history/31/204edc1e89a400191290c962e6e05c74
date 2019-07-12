@@ -1,0 +1,11 @@
+package org.danielRoa;
+
+public class Car {
+
+	private int number;
+	private double acceleration;
+	private String type;
+	
+	
+	
+}

@@ -1,0 +1,18 @@
+package org.danielRoa;
+
+public class Methods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		printHello();
+	}
+
+	private static void printHello() {
+		// TODO Auto-generated method stub
+		System.out.println("Hello");
+	}
+	
+}
+
+

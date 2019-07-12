@@ -1,0 +1,35 @@
+package org.danielRoa;
+
+public class SportsCar extends Car{
+
+	private boolean roofWindow;
+	
+	public SportsCar(int number, double acceleration, String type, boolean roofWindow) {
+		
+		super(number, acceleration, type);
+		this.roofWindow = roofWindow;
+		
+	}
+	
+	public void drift() {
+		System.out.println("Sports car drifting");
+	}
+	
+	@Override
+	public void start() {
+		// TODO Auto-generated method stub
+//		super.start();
+		
+		System.out.println("Sports car driving");
+		
+	}
+	
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+//		super.stop();
+	
+		System.out.println("Sports car stopping");
+	}
+	
+}
