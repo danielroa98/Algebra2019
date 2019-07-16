@@ -6,7 +6,10 @@
 <fullyQualifiedTypeName name="java.lang.LinkageError"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="first.api.Calculator"/>
+<fullyQualifiedTypeName name="org.danielRoa.SportsCar"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="org.danielRoa.SportsCar"/>
+<fullyQualifiedTypeName name="org.danielRoa.Switchable"/>
+<fullyQualifiedTypeName name="org.danielRoa.Television"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>
