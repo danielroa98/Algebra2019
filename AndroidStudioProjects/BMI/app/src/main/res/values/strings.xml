@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="insert_weight">Insert weight</string>
+    <string name="insert_height">Insert height</string>
+    <string name="calculate">Calculate</string>
+    <string name="please_insert">Please insert</string>
+</resources>
