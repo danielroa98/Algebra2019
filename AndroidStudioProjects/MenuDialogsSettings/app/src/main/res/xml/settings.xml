@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="nick"
+        android:title="@string/nickname"
+        android:summary="@string/enter_nickname"/>
+
+    <CheckBoxPreference
+        android:key="married"
+        android:title="@string/married"
+        android:summary="@string/dead_yet" />
+
+
+    <ListPreference
+        android:key="gender"
+        android:title="@string/gender"
+        android:summary="@string/what_gender"
+        android:entries="@array/gender_texts"
+        android:defaultValue="2"
+        android:entryValues="@array/gender_values"
+        />
+</PreferenceScreen>
