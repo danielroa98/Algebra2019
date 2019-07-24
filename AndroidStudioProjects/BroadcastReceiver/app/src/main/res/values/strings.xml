@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BroadcastReceiver</string>
+    <string name="sb">SB</string>
+    <string name="send">Send</string>
+    <string name="send_broadcast">Send broadcast</string>
+    <string name="br_triggered">Button triggered</string>
+</resources>
