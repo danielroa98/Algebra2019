@@ -167,9 +167,9 @@ public class MainActivity extends AppCompatActivity {
             return false;
         }
 
-        if (etPhone.getText().toString().length() == 0){
-            etPhone.setError(getString(R.string.please_insert));
-            etPhone.requestFocus();
+        if (etStreet.getText().toString().length() == 0){
+            etStreet.setError(getString(R.string.please_insert));
+            etStreet.requestFocus();
             return false;
         }
 

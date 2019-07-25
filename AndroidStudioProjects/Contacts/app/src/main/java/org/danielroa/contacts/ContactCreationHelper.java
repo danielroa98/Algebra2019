@@ -17,7 +17,7 @@ public class ContactCreationHelper extends SQLiteOpenHelper {
     private static final String ID = "_id";
     public static final String NOMBRE = "name";
     public static final String APELLIDO = "lastName";
-    public static final String NOTEL = "phoneNumber";
+    public static final String NOTEL = "phoneNumbertext";
     public static final String DIR = "address";
 
 
