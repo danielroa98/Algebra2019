@@ -19,7 +19,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/contacts"
+            android:textColor="@color/blueTitle"
             android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="1"
+            
+            />
 
     </LinearLayout>
 
@@ -76,6 +91,8 @@
             android:layout_weight="1"
             android:id="@+id/btnDelete"
             android:text="@string/delete"
+            android:textColor="@color/brownDel"
+            android:backgroundTint="@color/redDel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
