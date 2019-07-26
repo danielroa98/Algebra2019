@@ -15,4 +15,5 @@
     <string name="select_contact">Please select a contact</string>
 
     <string name="please_insert">Please insert a value</string>
+    <string name="contacts">CONTACTS</string>
 </resources>
