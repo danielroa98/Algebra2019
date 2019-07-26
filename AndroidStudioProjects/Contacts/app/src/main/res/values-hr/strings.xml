@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="add">Dodati</string>
+    <string name="update">Ažuriranje</string>
+    <string name="delete">Izbrisati</string>
+    <string name="insert_address">Umetnite adresu</string>
+    <string name="insert_phone_number">Umetnite adresu telefona</string>
+    <string name="insert_last_name">Umetnite prezime</string>
+    <string name="insert_name">Umetni ime</string>
+    <string name="select_contact">Odaberite kontakt</string>
+    <string name="please_insert">Unesite vrijednost</string>
+    <string name="contacts">KONTAKTI</string>
+</resources>

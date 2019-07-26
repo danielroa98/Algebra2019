@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="add">Añadir</string>
+    <string name="update">Actualizar</string>
+    <string name="delete">Borrar</string>
+    <string name="insert_address">Ingresa dirección</string>
+    <string name="insert_phone_number">Ingresa no. de tel.</string>
+    <string name="insert_last_name">Ingresa apellido</string>
+    <string name="insert_name">Ingresa el (los) nombre(s)</string>
+    <string name="select_contact">Selecciona un contacto</string>
+    <string name="please_insert">Inserta un valor</string>
+    <string name="contacts">CONTACTOS</string>
+</resources>
