@@ -17,7 +17,7 @@ public class ContactCreationHelper extends SQLiteOpenHelper {
     private static final String ID = "_id";
     public static final String NOMBRE = "name";
     public static final String APELLIDO = "lastName";
-    public static final String NOTEL = "phoneNumbertext";
+    public static final String NOTEL = "phoneNumber";
     public static final String DIR = "address";
 
 
@@ -27,7 +27,7 @@ public class ContactCreationHelper extends SQLiteOpenHelper {
             ID +" integer primary key autoincrement, " +
             NOMBRE +" text not null, " +
             APELLIDO + " text not null," +
-            NOTEL + "text not null," +
+            NOTEL + " text not null," +
             DIR+ " text not null);";
 
     public ContactCreationHelper(Context context) {
